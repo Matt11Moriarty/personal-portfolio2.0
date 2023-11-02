@@ -36,7 +36,35 @@
 .card {
   padding: 2em;
 }
+.card:hover {
+  box-shadow: 0 0 10px 10px rgba(255, 0, 0, 0.5);
+  transition: box-shadow 0.3s;
+}
 
 .read-the-docs {
   color: #888;
 }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  min-height: 100vh; /* Make the container at least 100% of the viewport height */
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+.app-background {
+  background-image: url('../public/images/background.jpg'); /* Replace with the path to your background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex: 1; /*Let the main element fill available space vertically*/
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; Optional: Center content vertically within main */
+  /* justify-content: center; Optional: Center content horizontally within main */
+}
+

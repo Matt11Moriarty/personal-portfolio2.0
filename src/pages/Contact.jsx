@@ -1,10 +1,13 @@
 import { Link } from 'react-router-dom';
+import '../App.css'
 
 const Contact = () => {
     return (
-        <p>
-            3606892953
-        </p>
+        <div className='app-container app-background'>
+            <p>
+                3606892953
+            </p>
+        </div>
     )
 }
 
