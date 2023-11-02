@@ -5,6 +5,9 @@
   text-align: center;
 }
 
+.font { 
+	font-family: monaco,Consolas,Lucida Console,monospace; 
+}
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -37,7 +40,7 @@
   padding: 2em;
 }
 .card:hover {
-  box-shadow: 0 0 10px 10px rgba(255, 0, 0, 0.5);
+  box-shadow: 0 0 10px 7px rgba(210, 164, 35, 0.5);
   transition: box-shadow 0.3s;
 }
 
@@ -51,6 +54,12 @@ html, body {
   padding: 0;
 }
 
+.header-bg {
+  background-image: url('../public/images/bg_head_image.jpg'); /* Replace with the path to your background image */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+}
+
 .app-container {
   min-height: 100vh; /* Make the container at least 100% of the viewport height */
   /* display: flex; */
@@ -58,9 +67,9 @@ html, body {
 }
 
 .app-background {
-  background-image: url('../public/images/background.jpg'); /* Replace with the path to your background image */
+  background-image: url('../public/images/app_bg_image.jpg'); /* Replace with the path to your background image */
   background-size: cover;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   flex: 1; /*Let the main element fill available space vertically*/
   /* display: flex; */
   /* flex-direction: column; */

@@ -1,7 +1,16 @@
 import { useState } from 'react';
+import Navigation from './Navigation';
+import '../App.css'
 
 const Header = () => {
-    return <div>Header</div>
+    return (
+        <div>
+            <header>    
+                <Navigation />
+            </header>
+            
+        </div>
+    )
 }
 
 

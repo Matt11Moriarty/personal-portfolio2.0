@@ -1,12 +1,12 @@
 import { Outlet } from 'react-router-dom';
-import Navigation from './components/Navigation'
+import Header from './components/Header';
 import './App.css'
 
 function App() {
   return (
     <>
-      <main>
-        <Navigation />
+      <main className='font' >
+        <Header />
         <Outlet />
       </main>
     </>

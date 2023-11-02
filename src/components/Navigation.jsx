@@ -6,12 +6,12 @@ const Navigation = () => {
   const currentPage = useLocation().pathname;
 
   return (
-    <nav className="navbar navbar-dark bg-dark">
+    <nav className="navbar header-bg">
       <ul className="nav nav-tabs justify-content-around">
         <li className="nav-item text-warning">
           <Link
             to="/"
-            className={currentPage === "/" ? "nav-link active" : "nav-link text-warning"}
+            className={currentPage === "/" ? "nav-link active text-info" : "nav-link text-light"}
           >
             About Me
           </Link>
@@ -20,7 +20,7 @@ const Navigation = () => {
           <Link
             to="/Portfolio"
             className={
-              currentPage === "/Portfolio" ? "nav-link active" : "nav-link text-warning"
+              currentPage === "/Portfolio" ? "nav-link active text-info" : "nav-link text-light"
             }
           >
             Portfolio
@@ -30,7 +30,7 @@ const Navigation = () => {
           <Link
             to="/Contact"
             className={
-              currentPage === "/Contact" ? "nav-link active" : "nav-link text-warning"
+              currentPage === "/Contact" ? "nav-link active text-info" : "nav-link text-light"
             }
           >
             Contact Me
@@ -40,7 +40,7 @@ const Navigation = () => {
           <Link
             to="/Resume"
             className={
-              currentPage === "/Resume" ? "nav-link active" : "nav-link text-warning"
+              currentPage === "/Resume" ? "nav-link active text-info" : "nav-link text-light"
             }
           >
             Resume
