@@ -68,6 +68,11 @@ html, body {
   }
 }
 
+.message-box {
+  height: 25vh;
+  width: 50vh;
+}
+
 .header-bg {
   background-image: url('../public/images/bg_head_image.jpg'); /* Replace with the path to your background image */
   /* background-size: cover; */
