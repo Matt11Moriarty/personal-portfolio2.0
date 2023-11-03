@@ -3,7 +3,7 @@ const projects = [
         title: "movie-tickets-site",
         description: "MVC and MySQL",
         link: "https://github.com/Matt11Moriarty/movie-tickets-site",
-        gif: "../../public/images/classic_flix.gif"
+        gif: "../public/images/classic_flix.gif"
     },
     {
         title: "social-network-api",
