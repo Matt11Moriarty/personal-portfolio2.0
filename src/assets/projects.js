@@ -9,13 +9,13 @@ const projects = [
         title: "social-network-api",
         description: "MongoDB and API routing",
         link: "https://github.com/Matt11Moriarty/social-network-api",
-        gif: "../../public/images/social_network_api.gif"
+        gif: "../public/images/social_network_api.gif"
     },
     {
         title: "tech-blog",
         description: "Deployed full stack blog",
         link: "https://github.com/Matt11Moriarty/tech-blog",
-        gif: "../../public/images/tech_blog.gif"
+        gif: "../public/images/tech_blog.gif"
     }
 ]
 
