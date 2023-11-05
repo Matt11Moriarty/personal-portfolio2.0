@@ -3,6 +3,11 @@ import React from "react";
 const Resume = () => {
   return (
     <div className="app-background app-container text-light p-3">
+    <a  href="/downloads/Matthew_Resume.pdf" 
+        download="Matthew's Resume"
+        className="btn btn-light m-3">
+              Download Resume
+            </a>
       <h3>EDUCATION</h3>
       <p>
         <strong>ASU Full-Stack Coding Bootcamp</strong>
