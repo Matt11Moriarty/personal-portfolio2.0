@@ -52,7 +52,7 @@ const Resume = () => {
         <br />
         - Direct technical consultation to clients for client implementations requiring integrations between our software and the clients.
         <br />
-        - Build inbound and outbound integrations for large clients such as Crocs, Pfizer, and General Motors.
+        - Built inbound and outbound integrations for large clients such as Crocs, Pfizer, and General Motors.
         <br />
         - Train integrations team on troubleshooting and technical resolutions to reduce bug tickets and foster self-reliance on non-integration related issues.
       </p>
@@ -124,14 +124,6 @@ const Resume = () => {
         Scottsdale, AZ
         <br />
         <br />
-        <em>Achievements/Tasks:</em>
-        <br />
-        <p>
-          Worked for a startup company on a small, agile team implementing new
-          systems in order to transform Fenix Marine Services into a
-          state-of-the-art facility and a profit center for its new owners, P5
-          Infrastructure.
-        </p>
         <p>
           <em>Achievements/Tasks:</em>
           <br />
@@ -145,7 +137,6 @@ const Resume = () => {
           <br />- Acted as a Team Lead for a Terminal Operating System (TOS)
           replacement. SPARCS was replaced with Navis N4.
         </p>
-        Long Beach, CA
       </p>
       <h3>Internship Experience</h3>
       <p>International Internship in Istanbul, Turkey</p>
