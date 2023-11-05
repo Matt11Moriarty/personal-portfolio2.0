@@ -54,6 +54,25 @@ html, body {
   padding: 0;
 }
 
+.movie-ticket-site {
+  background-image: url('/public/images/classic_flix.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-position: center top;
+  height: 25vh;
+}
+@media (max-width: 768px) {
+  .container {
+    background-size: contain; /* Adjust the background size for smaller screens */
+  }
+}
+
+.message-box {
+  height: 25vh;
+  width: 50vh;
+}
+
 .header-bg {
   background-image: url('../public/images/bg_head_image.jpg'); /* Replace with the path to your background image */
   /* background-size: cover; */

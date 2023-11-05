@@ -3,8 +3,8 @@ import projects from "../assets/projects";
 import "../App.css";
 
 const Project = () => {
-  return projects.map((project, i) => (
-    <div className="card m-3 border border-2 bg-dark" key={i}>
+  return projects.map((project, title) => (
+    <div className="card m-3 border border-2 bg-dark" key={title}>
       <img src={project.gif} className="card-img-top" alt={project.title} />
       <div className="card-body text-light">
         <h5 className="card-title">{project.title}</h5>
