@@ -6,7 +6,7 @@ const Navigation = () => {
   const currentPage = useLocation().pathname;
 
   return (
-    <nav className="navbar header-bg">
+    <nav className="navbar header-bg p-2">
       <ul className="nav nav-tabs justify-content-around">
         <li className="nav-item text-warning">
           <Link
