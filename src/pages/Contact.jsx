@@ -30,6 +30,13 @@ const Contact = () => {
             alert('Name field cannot be blank.')
         }
     }
+    const handleOnBlurMessage = (e) => {
+        e.preventDefault();
+
+        if (!name) {
+            alert('Message field cannot be blank.')
+        }
+    }
     const handleOnBlurEmail = (e) => {
         e.preventDefault();
 
@@ -64,7 +71,7 @@ const Contact = () => {
                     className='m-4 d-flex justify-content-start message-box align-top'
                     value={message}
                     name='message'
-                    onBlur={handleOnBlurName}
+                    onBlur={handleOnBlurMessage}
                     onChange={handleInputChange}
                     type='text'
                     placeholder='Message'
