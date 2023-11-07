@@ -2,7 +2,7 @@ import React from "react";
 
 const Resume = () => {
   return (
-    <div className="app-background app-container text-light p-3">
+    <div className="app-background app-container text-light px-5">
     <a  href="/downloads/Matthew_Resume.pdf" 
         download="Matthew's Resume"
         className="btn btn-light m-3">

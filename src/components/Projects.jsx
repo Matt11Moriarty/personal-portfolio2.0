@@ -10,7 +10,7 @@ const Projects = () => {
           <div className="card-body text-light">
             <h5 className="card-title">{project.title}</h5>
             <p className="card-text">{project.description}</p>
-            <a href={project.link} className="btn btn-light">
+            <a href={project.link} target="_blank" className="btn btn-light">
               Repository
             </a>
           </div>
