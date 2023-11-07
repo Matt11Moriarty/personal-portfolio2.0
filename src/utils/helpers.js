@@ -4,4 +4,8 @@ export function validateEmail(email) {
   return re.test(String(email).toLowerCase());
 }
 
-
+export function validateForm(input) {
+  const re = 
+  /./
+  return re.test(String(input).toLowerCase());
+}
