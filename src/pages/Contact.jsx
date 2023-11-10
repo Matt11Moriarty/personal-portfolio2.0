@@ -78,6 +78,7 @@ const Contact = () => {
                     type='text'
                     placeholder='Message'
                 />
+                {/* for future development - add send email functionality  */}
                 {/* <input className='mx-4' type='submit'/> */}
             </form>
         </div>
