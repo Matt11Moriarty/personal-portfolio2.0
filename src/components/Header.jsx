@@ -7,7 +7,6 @@ const Header = () => {
             <header>    
                 <Navigation />
             </header>
-            
         </div>
     )
 }

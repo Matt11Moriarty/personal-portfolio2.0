@@ -59,17 +59,9 @@ html, body {
   height: 40vh
 }
 
-/* .movie-ticket-site {
-  background-image: url('/public/images/classic_flix.gif');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-position: center top;
-  height: 25vh;
-} */
 @media (max-width: 768px) {
   .container {
-    background-size: contain; /* Adjust the background size for smaller screens */
+    background-size: contain; 
   }
 }
 
@@ -79,25 +71,16 @@ html, body {
 }
 
 .header-bg {
-  background-image: url('../public/images/bg_head_image.jpg'); /* Replace with the path to your background image */
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
+  background-image: url('../public/images/bg_head_image.jpg');
 }
 
 .app-container {
-  min-height: 100vh; /* Make the container at least 100% of the viewport height */
-  /* display: flex; */
-  /* flex-direction: column; */
+  min-height: 100vh;
 }
 
 .app-background {
-  background-image: url('../public/images/app_bg_image.jpg'); /* Replace with the path to your background image */
+  background-image: url('../public/images/app_bg_image.jpg'); 
   background-size: cover;
-  /* background-repeat: no-repeat; */
-  flex: 1; /*Let the main element fill available space vertically*/
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-items: center; Optional: Center content vertically within main */
-  /* justify-content: center; Optional: Center content horizontally within main */
+  flex: 1;
 }
 

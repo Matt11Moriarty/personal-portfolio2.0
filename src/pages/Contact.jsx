@@ -1,6 +1,6 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import '../App.css'
-import { validateEmail, validateForm } from '../utils/helpers';
+import { validateEmail } from '../utils/helpers';
 
 const Contact = () => {
     const [name, setName] = useState('');
@@ -22,7 +22,7 @@ const Contact = () => {
             setMessage(inputValue);
         }
     };
-
+    // name field validation
     const handleOnBlurName = (e) => {
         e.preventDefault();
 
@@ -30,24 +30,26 @@ const Contact = () => {
             alert('Name field cannot be blank.')
         }
     }
+    // message field validation
     const handleOnBlurMessage = (e) => {
         e.preventDefault();
 
-        if (!name) {
+        if (!message) {
             alert('Message field cannot be blank.')
         }
     }
+    // email field validation
     const handleOnBlurEmail = (e) => {
         e.preventDefault();
 
-        if (!validateEmail(e.value)) {
+        if (!validateEmail(email)) {
             alert('Not a valid email. Try again.')
         }
     }
 
-
     return (
         <div className='app-container text-left app-background app-container p-2'>
+            {/* name email and message input form  */}
             <form className='form'>
                 <input
                     className='m-4 d-flex justify-content-start'
@@ -76,6 +78,7 @@ const Contact = () => {
                     type='text'
                     placeholder='Message'
                 />
+                <input className='mx-4' type='submit' value="Send" />
             </form>
         </div>
     )

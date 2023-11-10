@@ -3,11 +3,15 @@ import React from "react";
 const Resume = () => {
   return (
     <div className="app-background app-container text-light px-5">
-    <a  href="/downloads/Matthew_Resume.pdf" 
+      {/* resume download button  */}
+      <a
+        href="/downloads/Matthew_Resume.pdf"
         download="Matthew's Resume"
-        className="btn btn-light m-3">
-              Download Resume
-            </a>
+        className="btn btn-light m-3"
+      >
+        Download Resume
+      </a>
+      {/* resume  */}
       <h3>EDUCATION</h3>
       <p>
         <strong>ASU Full-Stack Coding Bootcamp</strong>
@@ -50,11 +54,14 @@ const Resume = () => {
       <p>
         <em>Achievements/Tasks:</em>
         <br />
-        - Direct technical consultation to clients for client implementations requiring integrations between our software and the clients.
+        - Direct technical consultation to clients for client implementations
+        requiring integrations between our software and the clients.
         <br />
-        - Built inbound and outbound integrations for large clients such as Crocs, Pfizer, and General Motors.
-        <br />
-        - Train integrations team on troubleshooting and technical resolutions to reduce bug tickets and foster self-reliance on non-integration related issues.
+        - Built inbound and outbound integrations for large clients such as
+        Crocs, Pfizer, and General Motors.
+        <br />- Train integrations team on troubleshooting and technical
+        resolutions to reduce bug tickets and foster self-reliance on
+        non-integration related issues.
       </p>
       <h4>Senior Technical Support Engineer</h4>
       <p>
@@ -69,33 +76,39 @@ const Resume = () => {
         <br />
         - Conducted training and onboarding for new TSE's
         <br />
-        - Worked directly with high priority clients such as Lowe's and McDonalds to resolve technical issues.
+        - Worked directly with high priority clients such as Lowe's and
+        McDonalds to resolve technical issues.
         <br />
         - Triaged escalated issues as tier 3 support.
-        <br /><br />
-      <h4>Technical Support Engineer</h4>
-      <p>
-        <strong>Paradox, LLC</strong>
         <br />
-        09/2021 - 09/2022
         <br />
-        Scottsdale, AZ
-      </p>
-      <p>
-        <em>Achievements/Tasks:</em>
-        <br />
-        - Triage and troubleshoot bug tickets and service requests from all clients as tier 2 support.
-        <br />
-        - Leveraged SQL and other technologies to analyze and resolve issues.
-        <br />
-        - Support our client success team in meeting SLA's and worked with engineers to provide solutions.
-        <br /><br />
-      </p>
-      <h4>Technology Operations Manager</h4>
-      <p>
-        <strong>Keelson Mgt. LLC</strong>
-        <br />
-        03/2020 - 09/2021</p>
+        <h4>Technical Support Engineer</h4>
+        <p>
+          <strong>Paradox, LLC</strong>
+          <br />
+          09/2021 - 09/2022
+          <br />
+          Scottsdale, AZ
+        </p>
+        <p>
+          <em>Achievements/Tasks:</em>
+          <br />
+          - Triage and troubleshoot bug tickets and service requests from all
+          clients as tier 2 support.
+          <br />
+          - Leveraged SQL and other technologies to analyze and resolve issues.
+          <br />
+          - Support our client success team in meeting SLA's and worked with
+          engineers to provide solutions.
+          <br />
+          <br />
+        </p>
+        <h4>Technology Operations Manager</h4>
+        <p>
+          <strong>Keelson Mgt. LLC</strong>
+          <br />
+          03/2020 - 09/2021
+        </p>
         <br />
         Scottsdale, AZ
       </p>

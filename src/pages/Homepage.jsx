@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import React from "react";
 
 const Homepage = () => {
@@ -6,13 +5,15 @@ const Homepage = () => {
     <div className="app-background app-container">
       <div className="row">
         <div className="col-md-5 d-flex flex-column align-items-center">
+            {/* profile picture */}
           <img
-            src="/images/profile_pic.png" // Replace with the path to your image
+            src="/images/profile_pic.png"
             alt="Profile Picture"
             className="profile-picture rounded-circle m-2 border border-3 border-light"
           />
             <h2 className="text-center  p-1 text-light"><strong>Matthew Moriarty</strong></h2>
         </div>
+        {/* about me blurb  */}
         <div className="col-md-7">
           <p className='text-left text-light pt-5 p-2'>
             Hello! And welcome to my portfolio.<br />

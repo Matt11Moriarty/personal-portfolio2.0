@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import { Link, useLocation } from "react-router-dom";
 
 const Navigation = () => {
@@ -7,6 +6,7 @@ const Navigation = () => {
 
   return (
     <nav className="navbar header-bg p-2">
+      {/* nav tabs to different pages */}
       <ul className="nav nav-tabs justify-content-around">
         <li className="nav-item text-warning">
           <Link
