@@ -78,7 +78,7 @@ const Contact = () => {
                     type='text'
                     placeholder='Message'
                 />
-                <input className='mx-4' type='submit' value="Send" />
+                <input className='mx-4' type='submit'/>
             </form>
         </div>
     )
