@@ -13,7 +13,10 @@ const Projects = () => {
             <p className="card-text">{project.description}</p>
             <a href={project.link} target="_blank" className="btn btn-light">
               Repository
-            </a>
+            </a><br />
+            {project.app 
+              ? <a href={project.app} target="_blank" className="btn btn-light my-2">App</a>
+              : <></>}
           </div>
         </div>
       ))}
